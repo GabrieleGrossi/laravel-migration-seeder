@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-12 d-flex flex-wrap" >
                 @foreach ($trains as $train)
-                    <div class="card" style="width: calc(100% / 5 - 1rem)">
+                    <div class="card m-3" style="width: calc(100% / 4 - 0.5rem)">
                         <div class="card-title">
                             <h3>
                                 The train: {{$train->train_code}} of  {{$train->agency}} whit {{$train->number_of_carriages}} carriages
