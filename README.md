@@ -5,6 +5,26 @@
 
 </p>
 
+<h2> Milestone 1:
+Creiamo una tabella trains e relativa Migration
+Ogni treno dovrà avere:
+Azienda
+Stazione di partenza
+Stazione di arrivo
+Orario di partenza
+Orario di arrivo
+Codice Treno
+Numero Carrozze
+In orario
+Cancellato
+È probabile che siano necessarie altre colonne per far funzionare la tabella nel modo corretto :occhiolino:
+Inserite inizialmente pochi dati di esempio a mano, come preferite, tramite PhpMyAdmin.
+Milestone 2
+Create poi il Model relativo ed un Controller per mostrare nella home page tutti i treni che sono in partenza dalla data odierna.
+Milestone 3:
+Aggiungiamo un seeder per il model Train usando FakerPHP.
+</h2>
+
 # Template for a Laravel 9.2 + SCSS + Boostrap 5.x
 Template to generate a new standard and simple project using Laravel 9.2, Bootstrap 5.x and SCSS (SASS with SCSS Syntax).
 
