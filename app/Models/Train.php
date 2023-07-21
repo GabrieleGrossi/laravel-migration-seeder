@@ -8,5 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class Train extends Model
 {
     use HasFactory;
-    protected $table = 'trains';
 }
